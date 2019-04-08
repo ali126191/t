@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Apps, CloudDownload, Map } from "@material-ui/icons";
 
 // React icons
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
@@ -26,9 +26,39 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
+        <Button
+          href="https://shrivitthal.com/about-us/"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          ABOUT US
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="https://shrivitthal.com/our-services/"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+           OUR SERVICES
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="https://shrivitthal.com/contact-us/"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          CONTACT US
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Events"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -39,24 +69,14 @@ function HeaderLinks({ ...props }) {
               All components
             </Link>,
             <a
-              href="#"
+              href="http://shrivitthal.us4.list-manage1.com/subscribe?u=08406db9cc49d8dd58bd3a28a&id=f70b74727c"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Documentation
+              All Events
             </a>
           ]}
         />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="#"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <CloudDownload className={classes.icons} /> Download
-        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
@@ -66,7 +86,7 @@ function HeaderLinks({ ...props }) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="#"
+            href="https://twitter.com/shri_vitthal"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -84,7 +104,7 @@ function HeaderLinks({ ...props }) {
         >
           <Button
             color="transparent"
-            href="#"
+            href="https://www.facebook.com/hindutempletoronto/"
             target="_blank"
             className={classes.navLink}
           >
@@ -95,7 +115,7 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
-          title="Follow us on instagram"
+          title="Find Us"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -105,7 +125,7 @@ function HeaderLinks({ ...props }) {
             target="_blank"
             className={classes.navLink}
           >
-            <FaInstagram/>
+            <Map/>
           </Button>
         </Tooltip>
       </ListItem>

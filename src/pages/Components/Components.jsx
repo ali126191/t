@@ -38,7 +38,7 @@ class Components extends React.Component {
       <div>
         <Head/>
         <Header
-          brand="Material Kit React"
+          brand="SHRI VITTHAL HINDU MANDIR"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -48,14 +48,14 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/hindu-temple-mississauga-header.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
+                  <h1 className={classes.title}>Mississauga's Oldest Hindu Temple (Mandir) &amp; Community Center.</h1>
                   <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                    Enter Content Right here
                   </h3>
                 </div>
               </GridItem>

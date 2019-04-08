@@ -53,6 +53,7 @@ class Parallax extends React.Component {
     return (
       <div
         className={parallaxClasses}
+        title="Hindu Temple in Mississauga"
         style={{
           ...style,
           backgroundImage: "url(" + image + ")",

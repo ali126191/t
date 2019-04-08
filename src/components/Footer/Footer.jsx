@@ -28,53 +28,35 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#"
+                href="https://www.shrivitthal.com/terms-of-service"
                 className={classes.block}
                 target="_blank"
               >
-                Name
+                TERMS OF SERVICES
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#"
+                href="https://www.shrivitthal.com/privacy-policy"
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                PRIVACY POLICY
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#"
+                href="https://www.shrivitthal.com/cookie-policy"
                 className={classes.block}
                 target="_blank"
               >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="#"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
+                COOKIE POLICY
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="#"
-            className={aClasses}
-            target="_blank"
-          >
-            Name
-          </a>{" "}
-          for a better web.
+          (C) {1900 + new Date().getYear()} - {1901 + new Date().getYear()}, Shri Vitthal Hindu Mandir Toronto Inc.
         </div>
       </div>
     </footer>
