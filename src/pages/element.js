@@ -1,9 +1,9 @@
 import React from 'react'
-import About from './About/About'
+import Elements from './Elements/Components'
 export default function aboutUs() {
   return (
     <>
-      <About/>
+      <Elements/>
     </>
   )
 }

@@ -56,7 +56,8 @@ class Parallax extends React.Component {
         title="Hindu Temple in Mississauga"
         style={{
           ...style,
-          backgroundImage: "url(" + image + ")",
+          // backgroundImage: "url(" + image + ")",
+          backgroundColor: "#d81b60", // Header Code
           ...this.state
         }}
         ref="parallax"

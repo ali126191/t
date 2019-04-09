@@ -32,7 +32,7 @@ function Footer({ ...props }) {
                 className={classes.block}
                 target="_blank"
               >
-                TERMS OF SERVICES
+                TERMS OF SERVICE
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -56,7 +56,7 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          (C) {1900 + new Date().getYear()} - {1901 + new Date().getYear()}, Shri Vitthal Hindu Mandir Toronto Inc.
+          (c) {1900 + new Date().getYear()} - {1901 + new Date().getYear()} Shri Vitthal Hindu Mandir Temple Toronto Inc.
         </div>
       </div>
     </footer>

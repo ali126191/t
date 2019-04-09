@@ -11,13 +11,13 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-manifest`, // Begin PWA
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Shri Vitthal`, // Used in App install prompt
+        short_name: `SVHM`, // Used on users home screen
         start_url: `/svhm2/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#000000`, 
+        theme_color: `#a00037`, // Mobile bar color
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
@@ -31,7 +31,7 @@ module.exports = {
         plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
-    'gatsby-plugin-offline',
+    'gatsby-plugin-offline', // End PWA
 
   ],
 }
