@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ali126191.github.io/sitemap.xml
+Host: https://ali126191.github.io
